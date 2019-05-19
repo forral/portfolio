@@ -67,6 +67,12 @@ header {
     border-bottom-color: rgba(0,0,0,.125);
 }
 
+.border-top {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgba(0,0,0,.125);
+}
+
 .main-foto {
     width: 100px;
     height: 100px;
@@ -74,4 +80,19 @@ header {
     padding: 0.5rem;
     border: 1px solid rgba(0,0,0,.125);
     background-color: white;
+}
+
+footer {
+    color: #aaa;
+    padding: 10px 0;
+    font-size: 0.75rem;
+}
+
+.copyrights {
+    padding-left: 1rem;
+}
+
+.copyrights a {
+    text-decoration: none;
+    color: inherit;
 }
