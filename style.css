@@ -82,6 +82,21 @@ header {
     background-color: white;
 }
 
+.hero-section h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.hero-section h2 {
+    margin: 0;
+    padding: 0;
+    color: #aaa;
+    font-size: 1.5rem;
+    /* TODO: pick a good serif font for subtitle. */
+    font-family: serif;
+    font-weight: 400;
+}
+
 footer {
     color: #aaa;
     padding: 10px 0;
