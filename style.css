@@ -42,6 +42,8 @@ header {
 
 .about-me {
     grid-column: 1 / 4;
+    margin-bottom: 32px;
+    padding: 0 16px;
 }
 
 .contact {
