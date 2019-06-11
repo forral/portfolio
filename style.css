@@ -1,5 +1,13 @@
+/* 
+https://fonts.google.com/specimen/Merriweather
+https://fonts.google.com/specimen/Montserrat
+https://fonts.google.com/specimen/Open+Sans
+
+*/
+
 body {
-    font-family: "Helvetica", "Arial", sans-serif;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
     color: #555;
     margin: 0;
 }
@@ -33,6 +41,21 @@ header {
     background-color: #f5f8fa;
 }
 
+.logo {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 700;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: #111;
+}
+
 .container {
     padding-top: 2rem;
     display: grid;
@@ -44,6 +67,9 @@ header {
     grid-column: 1 / 4;
     margin-bottom: 32px;
     padding: 0 16px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.166667px;
 }
 
 .contact {
@@ -76,6 +102,13 @@ header {
     justify-content: space-between;
 }
 
+.main-nav {
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
 .main-nav li, .logo {
     padding: 1rem;
 }
@@ -106,6 +139,8 @@ header {
 }
 
 .hero-section h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     margin: 0;
     font-size: 3rem;
 }
