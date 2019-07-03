@@ -5,6 +5,10 @@ https://fonts.google.com/specimen/Open+Sans
 
 */
 
+* {
+    box-sizing: border-box;
+  }
+
 body {
     font-family: 'Merriweather', serif;
     font-weight: 300;
@@ -58,6 +62,9 @@ nav a {
 
 .container {
     padding-top: 2rem;
+}
+
+.grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 45px;
@@ -168,4 +175,20 @@ footer {
 .copyrights a {
     text-decoration: none;
     color: inherit;
+}
+
+.project-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.project-image-container {
+    float: left;
+    width: 33.33%;
+}
+
+.project-image-container img {
+    max-width: 100%;
+    padding: 10px;
 }
