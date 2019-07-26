@@ -61,7 +61,7 @@ nav a {
 }
 
 .container {
-    padding-top: 2rem;
+    padding: 2rem;
 }
 
 .grid-container {
@@ -177,10 +177,42 @@ footer {
     color: inherit;
 }
 
+.projects-header {
+    margin: 0 auto;
+    text-align: left;   
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0,0,0,0.125);
+}
+
+.projects-header h4 {
+    margin: 8px 0 0 0;
+    padding: 0;
+    font-size: 1.25rem;
+    color: #aaa;
+    /* TODO: pick a good serif font for subtitle. */
+    font-family: serif;
+    font-weight: 400;
+}
+
+.page-title {
+    font-size: 3rem;
+    margin: 0 0 8px 0;
+}
+
 .project-container::after {
     content: '';
     display: table;
     clear: both;
+}
+
+.project-container h2 {
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.project-container a {
+    text-decoration: none;
 }
 
 .project-image-container {
@@ -190,5 +222,4 @@ footer {
 
 .project-image-container img {
     max-width: 100%;
-    padding: 10px;
 }
